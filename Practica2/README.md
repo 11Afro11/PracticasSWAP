@@ -9,3 +9,15 @@ Para la realización de esta práctica debemos de tener realizada la primera par
 2. Ahora vamos a acceder mediante **ssh** a otra máquina sin contraseña, para ello vamos a usar la operación **keygen** de la orden **ssh**. Una vez ejecutada la orden debemos de dejar todos los campos en blando y finalmente tendremos el código generado.
 
 ![Proceso de instalación de los servicios](Captura2.PNG "titulo")
+
+3. Lo que debemos hacer a continueción es configurar los permisos en **/var/www**  para que nuestro usuario tenga los permisos necesarios.
+
+![Proceso de instalación de los servicios](Captura4.PNG "titulo")
+
+Una vez hecho esto procedemos a realizar el clonado mediante **rsync**
+
+![Proceso de instalación de los servicios](Captura5.PNG "titulo")
+
+4. Finalmente vamos a programar esta accion mediante un crontab para que se ejecute de manera continuada y mantener los sistemas actualizados.
+
+![Proceso de instalación de los servicios](Captura6.PNG "titulo")
